@@ -1,9 +1,9 @@
 {
-  "name": "my-react-jsx",
+  "name": "w7-app-with-local-storage",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://localhost",
+  "homepage": "https://azazxxc147896325-beep.github.io/W7-App-with-Local-Storage/",
   "scripts": {
     "dev": "vite",
     "build": "vite build && cp dist/index.html dist/404.html",
@@ -12,6 +12,7 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.117.2",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-router-dom": "^7.18.4"
